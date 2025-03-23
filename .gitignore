@@ -1,0 +1,8 @@
+# .gitignore
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/

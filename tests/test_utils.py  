@@ -1,0 +1,15 @@
+def is_valid_size(size):
+    """Check if the provided size is within a valid range (1-50)."""
+    try:
+        size = int(size)
+        return 1 <= size <= 50
+    except ValueError:
+        return False
+
+def is_valid_height(height):
+    """Check if height is within the expected range (150-175 cm)."""
+    try:
+        height = float(height)
+        return 150 <= height <= 175
+    except ValueError:
+        return False
